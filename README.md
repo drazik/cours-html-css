@@ -7,3 +7,4 @@ l'IUT Paris Descartes.
 ## Sommaire
 
 * [Introduction](01-introduction)
+* [HTML : les bases](02-html-bases)
