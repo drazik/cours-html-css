@@ -8,3 +8,4 @@ l'IUT Paris Descartes.
 
 * [Introduction](01-introduction)
 * [HTML : les bases](02-html-bases)
+* [CSS : les bases](03-css-bases)
