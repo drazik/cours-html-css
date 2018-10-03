@@ -12,7 +12,7 @@ Regardez-la et analysez-la quelques instants afin de réfléchir à la manière
 dont vous allez pouvoir en intégrer chaque partie.
 
 Une version finale est disponible sur
-[https://example-ffwrwmiutp.now.sh/](https://example-ffwrwmiutp.now.sh/).
+[https://example-hrcesarxtg.now.sh/](https://example-hrcesarxtg.now.sh/).
 
 Je vous conseille de découper la maquette en plusieurs partie dans votre tête,
 afin d'être confronté(e)s à plusieurs petits problèmes, plutôt qu'un énorme.
