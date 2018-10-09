@@ -6,4 +6,4 @@ et premiers pas avec Flexbox.
 ## Liens
 
 * [Slides](https://slides.com/drazik/cdin-css-box-model-et-mise-en-page)
-* [TD](TD/README.md)
+* [TD](TD)
