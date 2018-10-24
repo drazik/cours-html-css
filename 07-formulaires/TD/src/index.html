@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <title>Inscription</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  </head>
+
+  <body>
+    <form action="https://server-gowksslndc.now.sh/signup" method="POST">
+      <div>
+        <label for="email">Email</label>
+        <input id="email" name="email" type="email" />
+      </div>
+      <div>
+        <label for="password">Mot de passe</label>
+        <input id="password" name="password" type="password" />
+      </div>
+      <div>
+        <label for="firstname">Prénom</label>
+        <input id="firstname" name="firstname" type="text" />
+      </div>
+      <div>
+        <label for="lastname">Nom</label>
+        <input id="lastname" name="lastname" type="text" />
+      </div>
+      <div>
+        <span>Genre</span>
+        <input id="gender-man" name="gender" type="radio" value="man" />
+        <label for="gender-man">Homme</label>
+        <input id="gender-woman" name="gender" type="radio" value="woman" />
+        <label for="gender-woman">Femme</label>
+        <input id="gender-other" name="gender" type="radio" value="other" />
+        <label for="gender-other">Autre</label>
+      </div>
+      <div>
+        <label for="birthdate">Date de naissance</label>
+        <input type="date" name="birthdate" id="birthdate" />
+      </div>
+      <div>
+        <div>Adresse</div>
+        <label for="address-street">N°, rue</label>
+        <input id="address-street" name="address-street" type="text" />
+        <label for="address-postalcode">Code postal</label>
+        <input id="address-postalcode" name="address-postalcode" type="text" />
+        <label for="address-city">Ville</label>
+        <input id="address-city" name="address-city" type="text" />
+      </div>
+      <div>
+        <label for="other-informations">Informations complémentaires</label>
+        <textarea id="other-informations" name="other-informations"></textarea>
+      </div>
+      <div>
+        <button type="submit">Envoyer</button>
+      </div>
+    </form>
+  </body>
+</html>
