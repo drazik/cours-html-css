@@ -12,7 +12,7 @@ Présentation de CSS :
 
 ## Liens
 
-* [Slides](https://slides.com/drazik/cdin-introduction/#/)
+* Slides : [en ligne](https://slides.com/drazik/cdin-introduction/#/) / [PDF](css-bases.pdf)
 
 Cette séance utilise le site [CSS Diner](https://flukeout.github.io/) afin de
 familiariser les étudiant(e)s aux sélecteurs CSS. Le but est de balayer l'ensemble

@@ -9,5 +9,5 @@ Présentation de techniques utiles à l'application du responsive design :
 
 ## Liens
 
-* [Slides](https://slides.com/drazik/cdin-css-responsive-design)
+* Slides : [en ligne](https://slides.com/drazik/cdin-css-responsive-design) / [PDF](css-responsive-design.pdf)
 * [TD](TD)

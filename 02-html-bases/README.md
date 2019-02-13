@@ -12,5 +12,5 @@ Présentation de HTML :
 
 ## Liens
 
-* [Slides](https://slides.com/drazik/cdin-html-les-bases/#/)
+* Slides : [en ligne](https://slides.com/drazik/cdin-html-les-bases/#/) / [PDF](html-les-bases.pdf)
 * [TD](TD.md)
