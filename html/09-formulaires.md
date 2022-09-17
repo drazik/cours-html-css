@@ -330,3 +330,8 @@ un élément de formulaire :
 * `pattern` : permet de spécifier une expression régulière pour valider la valeur fournie par l'utilisateur
 
 [Documentation de la validation de formulaires en HTML](https://developer.mozilla.org/fr/docs/Learn/Forms/Form_validation)
+
+<hr />
+
+* Précédent : [Tableaux](08-tableaux.md)
+

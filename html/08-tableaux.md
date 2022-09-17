@@ -241,3 +241,9 @@ pour ça :
 	</tr>
 </table>
 ```
+
+<hr />
+
+* Précédent : [Elements de regions](07-regions.md)
+* Suivant : [Formulaires](09-formulaires.md)
+

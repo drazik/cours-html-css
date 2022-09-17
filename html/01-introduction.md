@@ -159,3 +159,6 @@ Faisons une petite pause pour faire le point sur ce qu'on a appris jusqu'ici :
 * les balises peuvent avoir des attributs
 * certaines balises sont "auto fermantes" : elles véhiculent une information mais n'ont pas vocation à décrire un contenu
 
+<hr />
+
+* Suivant : [Outillage](02-outillage.md)

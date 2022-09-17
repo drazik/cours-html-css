@@ -72,3 +72,9 @@ Lorsque vous insérez des images dans une page web, pensez à les optimiser. De
 nombreux outills existent pour optimiser le poids d'une image sans perdre de
 qualité (en tous cas pas de manière perceptible par un humain). Par exemple
 [Squoosh](https://squoosh.app/).
+
+<hr />
+
+* Précédent : [Liens](05-liens.md)
+* Suivant : [Elements de regions](07-regions.md)
+

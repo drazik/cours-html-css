@@ -111,3 +111,9 @@ paires clé / valeur :
 ```
 
 [Documentation de l'élément `dl`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/dl)
+
+<hr />
+
+* Précédent : [Elements de texte](03-elements-de-texte.md)
+* Suivant : [Liens](05-liens.md)
+

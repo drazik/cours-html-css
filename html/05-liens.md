@@ -103,3 +103,9 @@ On peut aussi faire des liens un peu spéciaux :
 
 * `href="tel:+33612121212"` : appel téléphonique. Ouvre l'app adaptée en fonction de l'appareil sur lequel on est. Peut-être Skype sur un PC, l'app Téléphone sur un smartphone
 * `href="mailto:bidule@machin.fr"` : mail. Ouvre l'application d'email par défaut de l'appareil. On peut aussi spécifier un objet et un corps de mail en ajoutant des paramètres d'URL : `?subject=Bonjour&body=Salut%20toi`. Attention toutefois les valeurs de paramètres d'URL doivent être encodées (d'où le `%20` pour représenter un espace)
+
+<hr />
+
+* Précédent : [Listes](04-listes.md)
+* Suivant : [Images](06-images.md)
+

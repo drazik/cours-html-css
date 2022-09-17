@@ -155,3 +155,9 @@ SR.
 ```
 
 [Documentation de l'élément `section`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/section)
+
+<hr />
+
+* Précédent : [Images](06-images.md)
+* Suivant : [Tableaux](08-tableaux.md)
+

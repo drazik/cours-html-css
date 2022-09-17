@@ -94,3 +94,9 @@ Voir la [documentation de la balise
 `em`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/em) ainsi que [la
 documentation de la balise
 `strong`](https://developer.mozilla.org/fr/docs/Web/HTML/Element/strong).
+
+<hr />
+
+* Précédent : [Outillage](02-outillage.md)
+* Suivant : [Listes](04-listes.md)
+

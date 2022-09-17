@@ -129,3 +129,7 @@ sauvegarde, la page va automatiquement se recharger dans le navigateur.
 Voilà, nous avons vu la structure d'une page web et mis en place un peu
 d'outillage nous permettant d'écrire du code HTML dans de bonnes conditions.
 
+<hr />
+
+* Précédent : [Introduction](01-introduction.md)
+* Suivant : [Elements de texte](03-elements-de-texte.md)
