@@ -22,7 +22,7 @@ Commençons par afficher un formulaire sans aucun champ, mais avec un bouton
 permettant de l'envoyer :
 
 ```html
-<form method="https://http-mirror.vercel.app/api/mirror" method="get">
+<form action="https://http-mirror.vercel.app/api/mirror" method="get">
 	<button type="submit">Envoyer</button>
 </form>
 ```
