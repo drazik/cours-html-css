@@ -39,7 +39,7 @@ Cet attribut permet de définir le nom de la valeur qui va être envoyée. Un pe
 comme pour une variable. Par exemple :
 
 ```html
-<form method="https://http-mirror.vercel.app/api/mirror" method="get">
+<form action="https://http-mirror.vercel.app/api/mirror" method="get">
 	<input name="firstname" />
 	<button type="submit">Envoyer</button>
 </form>
@@ -60,7 +60,7 @@ et un `<input />` se fait via l'attribut `for` du `<label>` qui doit contenir
 la même chose que l'attribut `id` de l'input auquel il correspond :
 
 ```html
-<form method="https://http-mirror.vercel.app/api/mirror" method="get">
+<form action="https://http-mirror.vercel.app/api/mirror" method="get">
 	<label for="firstname">Prénom</label>
 	<input name="firstname" id="firstname" />
 	<button type="submit">Envoyer</button>
