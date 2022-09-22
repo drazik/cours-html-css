@@ -11,3 +11,5 @@
 1. [Elements de regions](/html/07-regions.md)
 1. [Tableaux](/html/08-tableaux.md)
 1. [Formulaires](/html/09-formulaires.md)
+
+[Exercices](./html/exercices)
