@@ -13,3 +13,4 @@
 1. [Formulaires](/html/09-formulaires.md)
 
 [Exercices](./html/exercices)
+[Examen](./html/examen)
