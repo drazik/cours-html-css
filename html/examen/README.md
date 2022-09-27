@@ -10,7 +10,7 @@ L'objectif de cet examen est de valider que les notions suivantes sont acquises
 - Utilisation de tableaux
 - Envoi de données à un serveur avec un formulaire
 
-Durée de l'examen : 2h30 (3h40 avec tiers temps).
+Durée de l'examen : 2h45 (3h40 avec tiers temps).
 
 ## Enoncé
 
