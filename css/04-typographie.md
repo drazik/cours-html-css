@@ -147,6 +147,30 @@ La `font-size` de l'élément `.inner` sera égale à `32px` (par défaut). La `
 
 [Documentation de `font-size`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)
 
+## Modifier la police de caractères
+
+La propriété `font-family` permet de modifier la police de caractères utilisée sur un élément. Elle permet de spécifier une ou plusieurs polices à utiliser pour afficher le texte de l'élément.
+
+On peut spécifier plusieurs noms de police car une police peut ne pas être disponible sur la machine de l'utilisateur. Auquel cas le navigateur essayera d'utiliser la suivante, ainsi de suite.
+
+Par exemple :
+
+```css
+font-family: Georgia, "Times New Roman", "DejaVu Serif";
+```
+
+Le navigateur essayera de charger la police Georgia. Si elle n'est pas disponible, il tentera de charger Times New Roman. Si elle n'est pas disponible non plus, il tentera de charger DejaVu Serif. Si aucune police demandée n'est disponible sur la machine de l'utilisateur, la police par défaut sera utilisée.
+
+En spécifiant une famille de police (`serif`, `sans-serif`, `monospace`...) en dernière valeur, on peut s'assurer d'au moins utiliser la police par défaut du système pour une famille donnée. Ainsi, si les polices souhaitées sont des polices de la famille `sans-serif`, alors on peut spécifier `sans-serif` en dernière valeur :
+
+```css
+font-family: Roboto, "Open Sans", sans-serif;
+```
+
+On s'assure ainsi que la police de secours sera au moins de la même famille que les polices qu'on aurait aimé utiliser idéalement. Il est donc conseillé de toujours fournir une famille de police en dernière valeur.
+
+[Documentation de `font-family`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
+
 ## Polices de caractères externes
 
 TODO
