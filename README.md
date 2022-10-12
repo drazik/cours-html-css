@@ -21,3 +21,5 @@
 1. [Couleurs](/css/02-couleurs.md)
 1. [Images](/css/03-images.md)
 1. [Typographie](/css/04-typographie.md)
+
+[Exercices](./css/exercices)
