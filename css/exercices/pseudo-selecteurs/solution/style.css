@@ -1,0 +1,22 @@
+body {
+	font-family: sans-serif;
+}
+
+a {
+	color: hsl(240deg 100% 75%);
+}
+
+a:hover,
+a:focus {
+	text-decoration: none;
+	color: hsl(240deg 100% 50%);
+}
+
+a:visited {
+	color: hsl(330deg 100% 50%);
+}
+
+a[href^="http://"]::after,
+a[href^="https://"]::after {
+	content: " (Externe)";
+}
