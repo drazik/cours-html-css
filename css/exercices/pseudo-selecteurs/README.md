@@ -4,6 +4,7 @@ A partir du fichier [`index.html`](./index.html) fournit, créer un fichier `sty
 
 * la couleur de texte par défaut des liens est `hsl(240deg 100% 75%)`
 * la couleur de texte des liens sur lesquels on passe le curseur ou ayant reçu le focus est `hsl(240deg 100% 50%)`
+* le texte des liens sur lesquels on passe ls curseur ou ayant reçu le focus n'est pas souligné
 * la couleur de texte des liens visités est `hsl(330deg 100% 50%)`
 * les liens dont l'attribut `href` commence par `http://` ou `https://` sont suivis du texte `(Externe)`
 
