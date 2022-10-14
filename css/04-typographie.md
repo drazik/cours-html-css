@@ -171,6 +171,24 @@ On s'assure ainsi que la police de secours sera au moins de la même famille que
 
 [Documentation de `font-family`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
 
-## Polices de caractères externes
+## Polices de caractères non natives
 
-TODO
+Il est aussi possible d'utiliser des polices qui ne sont pas nativement embarquées dans le systèmes d'exploitation. C'est d'ailleurs très courant, car le nombre de police dites "web-safe" est assez limité.
+
+Pour utiliser une police qui n'est pas native, on utilise la "règle @" [`@font-face`](https://developer.mozilla.org/fr/docs/Web/CSS/@font-face). C'est une règle un peu spécifique qui permet de définir comment une police non native doit être chargée, à partir de quel(s) fichier(s), les différentes variantes (graisses, italique) de cette police, son nom (au sens de la propriété `font-family`).
+
+Exemple :
+
+```css
+@font-face {
+ font-family: "Open Sans";
+ src: url("/fonts/OpenSans-Regular-webfont.woff2") format("woff2"),
+        url("/fonts/OpenSans-Regular-webfont.woff") format("woff");
+}
+```
+
+Ici, on définit la police `Open Sans` et on spécifie au navigateur qu'il peut s'appuyer sur deux formats pour la charger : `woff2` et `woff`. Il utilisera le premier format qu'il est capable de gérer. Le format `woff2` est supporté par la majeur partie des navigateurs. Si on a besoin d'une compatibilité encore plus étendue, on peut ajouter le format `woff`. Cf [la table de compatibilité de ces deux formats sur MDN](https://developer.mozilla.org/en-US/docs/Web/Guide/WOFF#browser_compatibility).
+
+Il existe des services qui mettent à disposition des polices, comme [Google Fonts](https://fonts.google.com/). Ce service permet de sélectionner des polices qu'on souhaite utiliser sur nos pages. Il nous donne ensuite les balises HTML ou le code CSS à utiliser pour charger ces polices.
+
+Dans la mesure du possible, essayez d'héberger vos polices localement plutôt que de vous appuyer sur un service externe. Google Fonts est très optimisé et a assez peu de chances d'être hors ligne, mais c'est un service de Google, donc on peut s'attendre à ce que Google utilise les requêtes qui lui sont envoyées pour traquer nos utilisateurs...
