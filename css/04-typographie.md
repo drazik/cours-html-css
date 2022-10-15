@@ -2,7 +2,7 @@
 
 Dans le chapitre sur les couleurs on a vu qu'on pouvait modifier la couleur du texte avec la propriété `color`. Dans ce chapitre, on va parler de taille de texte, de graisse, de style, d'interlignage et de polices externes...
 
-## Modifier la graisse du texte
+## Modifier la graisse du texte (`font-weight`)
 
 Pour modifier la graisse d'un texte, on utilie la propriété [`font-weight`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight). Cette propriété prend en valeur soit un mot-clé, soit un nombre.
 
@@ -28,7 +28,7 @@ Les mots-clé disponibles sont :
 
 [Documentation de `font-weight`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-weight)
 
-## Modifier le style du texte
+## Modifier le style du texte (`font-style`)
 
 La propriété `font-style` peret globalement de rendre un texte en italique. Elle peut prend les valeurs suivantes :
 
@@ -39,11 +39,11 @@ Il existe aussi la valeur `oblique`, mais la plupart du temps la différence ent
 
 [Documentation de `font-style`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-style)
 
-## Taille de texte
+## Taille de texte (`font-size`)
 
 La taille d'un texte est gérée avec la propriété `font-size`. Cette propriété prend comme valeur une longueur ou un mot-clé.
 
-## Mots-clés
+### Mots-clés
 
 Dans un premier temps, parlons des mots-clé. Il y a d'abord un ensemble de mot-clé correspondant à des valeurs définies à partir de la taille de police de base définie par l'utilisateur dans les paramètres de son navigateur :
 
@@ -63,15 +63,15 @@ Et il y a deux mots-clé permettant de définir la `font-size` de manière relat
 
 Ces mots-clés sont assez rarement utilisés, mais ils peuvent être utiles pour une phase de prototypage par exemple, quand on ne veut pas passer du temps à prendre des décisions quant à la taille des textes.
 
-## Longueurs
+### Longueurs
 
-### Pixels (`px`)
+#### Pixels (`px`)
 
 `px` est une unité absolue. Lorsqu'on définit la taille d'un texte en `px`, cette taille ne dépend d'aucun autre élément : on demande au navigateur d'afficher le texte avec une hauteur bien précise en pixels. C'est donc l'unité qui permet d'arriver au résultat le plus précis.
 
 En revanche, quand on utilise `px` pour définir la taille d'un texte, on cause des problèmes d'accessibilité. Car on surcharge le choix de l'utilisateur dans les paramètres de son navigateur. Si celui-ci a configuré son navigateur pour avoir une taille de texte de base à `20px`, alors ce choix sera totalement ignoré et la valeur qu'on aura choisie sera utilisée à la place. Cela peut causer des problèmes à cet utilisateur qui a besoin d'une taille de police minimale plus élevée pour pouvoir lire correctement les textes sur les pages web.
 
-### em
+#### em
 
 `em` est une unité relative. C'est un multiple de la `font-size` héritée de l'élément.
 
@@ -117,7 +117,7 @@ Si on part du principe qu'aucun autre élément ne redéfinit sa `font-size`, do
 
 Le calcul peut donc rapidement devenir difficile quand on veut revenir à une valeur précise dans un élément qui est à l'intérieur d'un autre qui définit sa `font-size` en `em`, surtout sans utiliser l'unité `px`.
 
-### rem
+#### rem
 
 L'unité `rem` a été inventée pour éviter les problèmes liés à l'imbrication de calculs de l'unité `em`. C'est aussi une unité relative et c'est aussi un multiple d'une autre `font-size`, mais cette fois-ci plutôt de la `font-size` de l'élément racine ("root", d'où le "r"). Dans une page web, l'élément racine est `html`, et à moins qu'on ait redéfinit la `font-size` de cet élément, elle sera égale à la `font-size` définie par l'utilisateur dans ses paramètres. Par défaut `16px`, donc.
 
@@ -147,7 +147,20 @@ La `font-size` de l'élément `.inner` sera égale à `32px` (par défaut). La `
 
 [Documentation de `font-size`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-size)
 
-## Modifier la police de caractères
+## La hauteur de ligne (`line-height`)
+
+Pour modifier la hauteur de ligne, on utilise la propriété `line-height`. Cette propriété peut prendre 4 types de valeurs :
+
+* le mot-clé `normal` : correspond à la valeur par défaut de la hauteur de ligne. Elle dépend du navigateur et de la famille de police. Généralement elle vaut environ `1.2`
+* un nombre sans unité : correspond à un multiple de la `font-size` de l'élément. Un élément avec une `font-size` à `16px` et une `line-height` à `1.5` aura au final une hauteur de ligne de `24px`. C'est le type de valeur recommandé pour définir la hauteur de ligne d'un élément
+* une longueur : en `px`, `em`, `rem`...
+* un pourcentage : relatif à la `font-size` de l'élément
+
+Attention, les valuers en `em` et les pourcentages peuvent produire des résultats inattendus. Voir ["Gestion de l'héritage et valeurs sans unités" sur le MDN](https://developer.mozilla.org/fr/docs/Web/CSS/line-height#gestion_de_lh%C3%A9ritage_et_valeurs_sans_unit%C3%A9).
+
+Les WCAG (Web Content Accessibility Guidelines) recommandent une hauteur de ligne minimale de `1.5` pour les paragraphes principaux.
+
+## Modifier la police de caractères (`font-family`)
 
 La propriété `font-family` permet de modifier la police de caractères utilisée sur un élément. Elle permet de spécifier une ou plusieurs polices à utiliser pour afficher le texte de l'élément.
 
@@ -171,7 +184,7 @@ On s'assure ainsi que la police de secours sera au moins de la même famille que
 
 [Documentation de `font-family`](https://developer.mozilla.org/en-US/docs/Web/CSS/font-family)
 
-## Polices de caractères non natives
+## Polices de caractères non natives (`@font-face`)
 
 Il est aussi possible d'utiliser des polices qui ne sont pas nativement embarquées dans le systèmes d'exploitation. C'est d'ailleurs très courant, car le nombre de police dites "web-safe" est assez limité.
 
