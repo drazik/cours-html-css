@@ -33,13 +33,7 @@ Il est possible de modifier le type de boîte utilisé par un élément grâce �
 
 Grâce à cette propriété et ces deux valeurs, on peut décider d'afficher des items de liste sur une ligne par exemple:
 
-<iframe
-	src="https://codesandbox.io/embed/silly-carson-7iw3w2?fontsize=14&hidenavigation=1&theme=dark"
-	style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-	title="switch-to-inline-display"
-	allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-	sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-></iframe>
+[![Edit switch-to-inline-display](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/switch-to-inline-display-7iw3w2?fontsize=14&hidenavigation=1&theme=dark)
 
 [Documentation de la propriété `display`](https://developer.mozilla.org/fr/docs/Web/CSS/display)
 
@@ -47,33 +41,15 @@ Grâce à cette propriété et ces deux valeurs, on peut décider d'afficher des
 
 Un élément a une largeur et une hauteur. Ces dimensions peuvent être définies avec les propriétés `width` et `height`:
 
-<iframe
-	src="https://codesandbox.io/embed/confident-clarke-plkjr0?fontsize=14&hidenavigation=1&theme=dark"
-	style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-	title="width-height-example-01"
-	allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-	sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-></iframe>
+[![Edit width-height-example-01](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/width-height-example-01-plkjr0?fontsize=14&hidenavigation=1&theme=dark)
 
 Attention, si le contenu d'un élément auquel on a donné des dimensions précises venait à dépasser ces dimensions, alors le contenu va "sortir" de l'élément:
 
-<iframe
-	src="https://codesandbox.io/embed/width-height-example-overflow-3pjuwo?fontsize=14&hidenavigation=1&theme=dark"
-	style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-	title="width-height-example-overflow"
-	allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-	sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-></iframe>
+[![Edit width-height-example-overflow](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/width-height-example-overflow-3pjuwo?fontsize=14&hidenavigation=1&theme=dark)
 
 Pour éviter ce genre de problème, la solution la plus simple est d'éviter de définir une hauteur spécifique. Dans ce cas, la hauteur de l'élément va dépendre du contenu:
 
-<iframe
-	src="https://codesandbox.io/embed/width-height-example-height-auto-50qtz2?fontsize=14&hidenavigation=1&theme=dark"
-	style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-	title="width-height-example-height-auto"
-	allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-	sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-></iframe>
+[![Edit width-height-example-height-auto](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/width-height-example-height-auto-50qtz2?fontsize=14&hidenavigation=1&theme=dark)
 
 Si on souhaite vraiment que l'élément ait une hauteur spécifique, on a deux possibilités :
 
@@ -82,23 +58,11 @@ Si on souhaite vraiment que l'élément ait une hauteur spécifique, on a deux p
 
 Les deux comportements se définissent avec la propriété `overflow`. Le premier utilise la valeur `hidden`, et le second la valeur `scroll` ou `auto`:
 
-<iframe
-src="https://codesandbox.io/embed/width-height-example-height-overflow-solution-n2u3ky?fontsize=14&hidenavigation=1&theme=dark"
-style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-title="width-height-example-height-overflow-solution"
-allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-></iframe>
+[![Edit width-height-example-height-overflow-solution](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/width-height-example-height-overflow-solution-n2u3ky?fontsize=14&hidenavigation=1&theme=dark)
 
 On privilégie en générale les barres de défilement, pour éviter que du contenu soit complètement caché pour l'utilisateur.
 
-<iframe
-	src="https://codesandbox.io/embed/min-max-width-height-zkxgf4?fontsize=14&hidenavigation=1&theme=dark"
-	style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-	title="min-max-width-height"
-	allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-	sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-></iframe>
+[![Edit min-max-width-height](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/min-max-width-height-zkxgf4?fontsize=14&hidenavigation=1&theme=dark)
 
 - [Documentation de la propriété `width`](https://developer.mozilla.org/fr/docs/Web/CSS/width)
 - [Documentation de la propriété `height`](https://developer.mozilla.org/fr/docs/Web/CSS/height)
@@ -126,13 +90,7 @@ Les outils de développement des navigateurs nous permettent de visualiser les c
 
 Dans le modèle de boîte standard, lorsqu'on définit des dimensions (avec les propriétés `width` pour la largeur et `height` pour la hauteur), on définit en fait les dimensions de la boîte de contenu. Les dimensions des autres couches s'ajoutent aux dimensions définies via `width` et `height` (sauf les marges externes). Ainsi, dans l'exemple suivant, l'élément a une largeur finale de 236px et une hauteur finale de 186px :
 
-<iframe
-	src="https://codesandbox.io/embed/box-model-standard-exemple-eil2vb?fontsize=14&hidenavigation=1&theme=dark"
-	style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-	title="box-model-standard-exemple"
-	allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-	sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-></iframe>
+[![Edit box-model-standard-exemple](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/box-model-standard-exemple-eil2vb?fontsize=14&hidenavigation=1&theme=dark)
 
 Le calcul de la largeur inclut : `200px (width) + 16px (padding left) + 16px (padding right) + 2px (border left) + 2px (border right) = 236px`. Le calcul de la hauteur inclut : `150px (height) + 16px (padding left) + 16px (padding right) + 2px (border top) + 2px (border bottom) = 186px`.
 
@@ -174,13 +132,7 @@ On va donc en général embarquer ces deux règles CSS dans toutes nos pages.
 
 La marge interne permet de créer un espacement entre le bord d'un élément et sa boîte de contenu. On peut facilement la matérialiser en donnant une couleur ou une image de fond, et en ajoutant des marges internes à un élément avec les propriétés `padding-left`, `padding-right`, `padding-top` et `padding-bottom` :
 
-<iframe
-	src="https://codesandbox.io/embed/padding-example-01-yzevji?fontsize=14&hidenavigation=1&theme=dark"
-	style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-	title="padding-example-01"
-	allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-	sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-></iframe>
+[![Edit padding-example-01](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/padding-example-01-yzevji?fontsize=14&hidenavigation=1&theme=dark)
 
 Il existe aussi la propriété raccourcie `padding`. Celle-ci peut prendre de 1 à 4 valeurs distinces :
 
@@ -199,13 +151,7 @@ Pour afficher une bordure sur un élément, il faut prendre en compte 3 caracté
 * le style : défini avec `border-top-style`, `border-bottom-style`, `border-left-style`, `border-right-style`, ou avec `border-style` pour définir le style de la bordure des 4 côtés d'un coup
 * la couleur : définie avec `border-top-color`, `border-bottom-color`, `border-left-color`, `border-right-color` ou avec `border-color` pour définir la couleur de la bordure des 4 côtés d'un coup
 
-<iframe
-	src="https://codesandbox.io/embed/border-1bxof8?fontsize=14&hidenavigation=1&theme=dark"
-	style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-	title="border"
-	allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-	sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-></iframe>
+[![Edit border](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/border-1bxof8?fontsize=14&hidenavigation=1&theme=dark)
 
 On peut aussi définir les 3 caractéristiques pour l'ensemble des bordures en une seule propriété grâce à `border`.
 
@@ -218,24 +164,12 @@ On peut aussi définir les 3 caractéristiques pour l'ensemble des bordures en u
 
 La marge externe permet de créer un espacement autour d'un élément. Cet espacement est défini par les propriétés `margin-top`, `margin-bottom`, `margin-left` et `margin-right` :
 
-<iframe
-	src="https://codesandbox.io/embed/margin-11v8ux?fontsize=14&hidenavigation=1&theme=dark"
-	style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-	title="margin"
-	allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-	sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-></iframe>
+[![Edit margin](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/margin-11v8ux?fontsize=14&hidenavigation=1&theme=dark)
 
 Il existe aussi la propriété raccourcie `margin`. Celle-ci fonctionne de la même manière que la propriété `padding`.
 
 Les marges externes peuvent aussi prendre une valeur un peu spéciale : `auto`. Cette valeur est particulièrement utile pour les marges horizontales. En effet, sur un élément dont la largeur est inférieure à celle de son conteneur, si on affecte une marge horizontale à `auto`, cela a pour effet d'affecter l'espace disponible à la marge. Et si les deux marges horizontales sont à `auto`, alors l'espace disponible est divisé de chaque côté de l'élément. Ce qui a pour effet de le centrer horizontalement.
 
-<iframe
-	src="https://codesandbox.io/embed/margin-forked-w6xxkz?fontsize=14&hidenavigation=1&theme=dark"
-	style="width:100%; height:500px; border:0; border-radius: 4px; overflow:hidden;"
-	title="margin-auto"
-	allow="accelerometer; ambient-light-sensor; camera; encrypted-media; geolocation; gyroscope; hid; microphone; midi; payment; usb; vr; xr-spatial-tracking"
-	sandbox="allow-forms allow-modals allow-popups allow-presentation allow-same-origin allow-scripts"
-></iframe>
+[![Edit margin-auto](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/margin-auto-w6xxkz?fontsize=14&hidenavigation=1&theme=dark)
 
 [Documentation de la propriété `margin`](https://developer.mozilla.org/fr/docs/Web/CSS/margin)
