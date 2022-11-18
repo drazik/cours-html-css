@@ -24,5 +24,6 @@
 1. [Modèle de boîte](/css/05-modele-de-boite.md)
 1. [Flexbox](/css/06-flexbox.md)
 1. [Grid](/css/07-grid.md)
+1. [Media query](/css/08-media-query.md)
 
 [Exercices](./css/exercices)
