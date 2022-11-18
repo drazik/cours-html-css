@@ -23,5 +23,6 @@
 1. [Typographie](/css/04-typographie.md)
 1. [Modèle de boîte](/css/05-modele-de-boite.md)
 1. [Flexbox](/css/06-flexbox.md)
+1. [Grid](/css/07-grid.md)
 
 [Exercices](./css/exercices)
